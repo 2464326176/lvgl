@@ -1,0 +1,117 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "lvgl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lvgl-Debug-fa74ed097b889aef5e88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lvgl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lvgl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl::@b16ffba5fedc7c547903",
+					"jsonFile" : "target-lvgl-Debug-b1b3bd883fe2f90c4859.json",
+					"name" : "lvgl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_demos::@b16ffba5fedc7c547903",
+					"jsonFile" : "target-lvgl_demos-Debug-c956bc646bdda571b95a.json",
+					"name" : "lvgl_demos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_examples::@b16ffba5fedc7c547903",
+					"jsonFile" : "target-lvgl_examples-Debug-2e432bf64927bf87ae33.json",
+					"name" : "lvgl_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-89304a2523de33a38faa.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-Debug-68399d78a039c2b4ff7e.json",
+					"name" : "run",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/lyh/opengrok/source/lvgl/lv_port_pc_eclipse/build",
+		"source" : "D:/lyh/opengrok/source/lvgl/lv_port_pc_eclipse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
