@@ -67,7 +67,7 @@ int SDL_main(int argc, char *argv[])
   /*Initialize LVGL*/
   lv_init();
 
-  hal_init(320, 240);
+  hal_init(900, 600);
 
   //lv_example_chart_3();
 
